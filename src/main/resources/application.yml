@@ -1,0 +1,10 @@
+server:
+  port: 8600
+auth0:
+  audience: https://api.gestaoclientes.com/
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-7ulnaa82.us.auth0.com/
